@@ -15,15 +15,24 @@ export const Container = styled.div`
     font-weight: bold;
   }
 
-  >p {
-    margin-top: 24px;
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 32px;
-  }
+`;
 
-  > svg {
-    width: 45px;
-    height: 45px;
+export const SummonerInput = styled.input`
+  width: min(90vw, 800px);;
+  height: 54px;
+
+  position: relative;
+
+  font-size: 22px;
+
+  margin-top: 12px;
+  padding: 0 10px 0 65px;
+  border-radius: 7px;
+  background-color: #fff;
+
+
+  &::placeholder {
+    color: gray;
   }
 `;
+

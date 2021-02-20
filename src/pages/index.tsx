@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
 
-import LeagueLogo from '../assets/lol.svg'
-import { Container } from '../styles/pages/Home'
+import SRLogo from '../assets/sr.svg'
+import { Container, SummonerInput } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -11,9 +11,9 @@ const Home: React.FC = () => {
         <title>my rift</title>
       </Head>
 
-      <LeagueLogo />
-      <h1>Welcome to my rift</h1>
-      <p>Search for your summoner name</p>     
+      <SRLogo />
+      <h1>Welcome to MyRift.</h1>
+      <SummonerInput type="text" placeholder="Search your summoner name"/>  
     </Container>
   )
 }

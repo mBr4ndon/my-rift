@@ -10,6 +10,13 @@ export default createGlobalStyle`
   body { 
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+    font: 400 16px 'Roboto', sans-serif;
   }
+
+  *, button, input {
+    border: 0;
+    outline: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
 `

@@ -1,3 +1,5 @@
 # MyRift.
 
-> MyRift. will allow to see your summoner status and match history with an aesthetic and pleasent design (for now :3)
+> MyRift. will allow you to search for your summoner name with an aesthetic and pleasing design (for now :3)
+
+![Landing page](screenshots/landing-page-v1.png)
