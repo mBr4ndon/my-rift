@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import React from 'react'
+
+// import { useRouter } from 'next/router'
 
 import SRLogo from '../assets/sr.svg'
-import { Container, SummonerInput } from '../styles/pages/Home'
+import { Container, SummonerInput, SearchWrapper, SearchButton } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +14,11 @@ const Home: React.FC = () => {
 
       <SRLogo />
       <h1>Welcome to MyRift.</h1>
-      <SummonerInput type="text" placeholder="Search your summoner name"/>  
+
+      <SearchWrapper>
+        <SummonerInput type="text" placeholder="Search your summoner name"/>
+        <SearchButton href="/summoner/teste">GO</SearchButton>
+      </SearchWrapper> 
     </Container>
   )
 }
